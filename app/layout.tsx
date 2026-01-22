@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ClerkProvider } from "@clerk/nextjs";
+import Provider from "./provider";
+import { Toaster } from "@/components/ui/sonner";
 
-const appFont = DM_Sans({ subsets: ["latin"] });
+const appFont = DM_Sans({
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
-  title: "UIUX Mockup generator App",
-  description: "Generate High quality UIUX Mockups with AI",
+  title: "Adithya Thaninki's UIUX Mockup Generator",
+  description:
+    "Generate High quality Free UIUX Mobile and Web Mockup designs by Adithya Thaninki",
 };
 
 export default function RootLayout({
@@ -16,8 +21,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={appFont.className}>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang="en" suppressHydrationWarning>
+        <body className={appFont.className}>
+          <Provider>{children}</Provider>
+          <Toaster position="top-center" richColors />
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
