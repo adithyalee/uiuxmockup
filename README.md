@@ -16,6 +16,15 @@ A modern UIUX Mockup Generator built using **Next.js** and integrates:
 
 ---
 
+---
+
+## 🧠 Learning Journey
+This project was built as a deep-dive into modern Full-Stack development.
+* **Continuous Learning:** I initially learned the core architecture through community resources and YouTube tutorials. 
+* **Iteration:** While the foundation is built, I am constantly refactoring and learning from my own code. 
+* **Philosophy:** I believe that "Once you think you have learned, you are still just beginning." I am currently diving deeper into the nuances of this project to optimize performance and logic.
+
+
 ## 📥 Installation
 
 ```bash
