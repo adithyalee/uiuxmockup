@@ -1,4 +1,4 @@
-# 🚀 UIUX Generator App (uiuxmock)
+# UIUX Generator App (uiuxmock)
 
 A modern, full-stack Next.js 16 web application designed to generate free UI and UX design mockups. Powered by AI, authenticated with Clerk, and backed by a serverless Neon PostgreSQL database using Drizzle ORM.
 
@@ -12,22 +12,22 @@ A modern, full-stack Next.js 16 web application designed to generate free UI and
 
 ---
 
-## 📌 Table of Contents
-1. [📖 Project Overview](#-project-overview)
-2. [📦 Features](#-features)
-3. [🛠 Tech Stack](#-tech-stack)
-4. [📥 Installation](#-installation)
-5. [▶️ Usage](#️-usage)
-6. [📁 Project Structure](#-project-structure)
-7. [⚙️ Configuration](#️-configuration)
-8. [🤝 Contributing](#-contributing)
-9. [🗺 Roadmap](#-roadmap)
-10. [📄 License](#-license)
-11. [📬 Contact](#-contact)
+## Table of Contents
+1. [Project Overview](#-project-overview)
+2. [Features](#-features)
+3. [Tech Stack](#-tech-stack)
+4. [Installation](#-installation)
+5. [▶Usage](#-usage)
+6. [Project Structure](#-project-structure)
+7. [Configuration](#-configuration)
+8. [Contributing](#-contributing)
+9. [Roadmap](#-roadmap)
+10. [License](#-license)
+11. [Contact](#-contact)
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 The **UIUX Generator App** is a landing page and platform that enables users to generate stunning user interface and user experience design mockups instantly. 
 
 ### Why it exists:
@@ -40,16 +40,16 @@ Traditional UI/UX mockup generation is manual and time-consuming. This applicati
 
 ---
 
-## 📦 Features
-- **🔑 Secure Authentication**: Fully integrated with Clerk for frictionless user login, signup, and profile management.
-- **💳 Credit-Based Generation**: Seamless serverless synchronization that automatically provisions 5 free credits for new users in the database upon signup.
-- **🎨 Comprehensive UI Kit**: Built-in visual elements utilizing over 50 preconfigured Radix UI primitives and shadcn components.
-- **⚡ Serverless Database Integration**: Instant, low-latency queries to Neon PostgreSQL via Drizzle ORM.
-- **📱 Responsive & Modern Design**: Dark mode and theme configuration supported out of the box using Tailwind CSS v4 and Next Themes.
+## Features
+- **Secure Authentication**: Clerk handles login, signup, and profile management.
+- **Credit-Based Generation**: Serverless sync that provisions 5 free credits for new users in the database upon signup.
+- **UI Kit**: Built-in visual elements utilizing over 50 preconfigured Radix UI primitives and shadcn components.
+- **Serverless Database Integration**: Queries to Neon PostgreSQL via Drizzle ORM.
+- **Responsive & Modern Design**: Dark mode and theme configuration supported using Tailwind CSS v4 and Next Themes.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Core Framework**: Next.js 16.1 (App Router) & React 19.2
 - **Styling**: Tailwind CSS v4 (configured via PostCSS) & Next Themes
 - **Authentication**: Clerk Next.js SDK
@@ -60,7 +60,7 @@ Traditional UI/UX mockup generation is manual and time-consuming. This applicati
 
 ---
 
-## 📥 Installation
+## Installation
 
 Follow these steps to set up the project locally:
 
@@ -76,7 +76,7 @@ npm install
 ```
 
 ### 3. Configure the environment variables
-Create a `.env` file in the root directory and add your credentials (see [Configuration](#️-configuration) below).
+Create a `.env` file in the root directory and add your credentials (see [Configuration](#-configuration) below).
 
 ### 4. Push the database schema
 Sync the database schema with Neon PostgreSQL:
@@ -86,7 +86,7 @@ npx drizzle-kit push
 
 ---
 
-## ▶️ Usage
+## ▶Usage
 
 ### Running the Development Server
 Launch the development server locally:
@@ -108,7 +108,7 @@ npm run start
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 uiuxmock/
@@ -138,7 +138,7 @@ uiuxmock/
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Ensure you create a `.env` file in the root of the project with the following structure:
 
@@ -159,7 +159,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -171,7 +171,7 @@ Contributions make the open-source community an amazing place to learn, inspire,
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 - [ ] Implement AI-Powered UI Mockup generation models.
 - [ ] Add editable canvas support to customize generated mockups online.
 - [ ] Support code export (Tailwind, HTML, React/JSX).
@@ -180,17 +180,17 @@ Contributions make the open-source community an amazing place to learn, inspire,
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Muskaan Sultana**  
 - **GitHub**: [MuskaanSultana](https://github.com/MuskaanSultana)  
 - **Email**: muskaan.sultana@example.com  
 
 ---
-*Created with ❤️ for the UI/UX developer community.*
+*Created with for the UI/UX developer community.*
